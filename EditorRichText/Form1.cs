@@ -339,6 +339,37 @@ namespace EditorRichText
         {
             System.Diagnostics.Process.Start("https://github.com/bruno-bento");
         }
+
+        private void alterarTemaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void claroToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.BackColor = System.Drawing.Color.FromArgb(255, 255, 255);
+            this.toolStrip1.BackColor = System.Drawing.Color.FromArgb(255, 255, 255);
+            this.menuStrip1.BackColor = System.Drawing.Color.FromArgb(255, 255, 255);
+            this.toolStripNewFile.BackColor = System.Drawing.Color.FromArgb(255, 255, 255);
+            this.sairToolStripMenuItem.ForeColor = System.Drawing.Color.Black;
+            this.opcoesToolStripMenuItem.ForeColor = System.Drawing.Color.Black;
+            this.arquivoToolStripMenuItem.ForeColor = System.Drawing.Color.Black;
+            this.rtxtb1.BackColor = System.Drawing.Color.FromArgb(255, 255, 255);
+            this.rtxtb1.ForeColor = System.Drawing.Color.Black;
+        }
+
+        private void escutoToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            this.BackColor = System.Drawing.Color.FromArgb(21, 32, 43);
+            this.toolStrip1.BackColor = System.Drawing.Color.FromArgb(21, 32, 43);
+            this.menuStrip1.BackColor = System.Drawing.Color.FromArgb(21, 32, 43);
+            this.toolStripNewFile.BackColor = System.Drawing.Color.FromArgb(21, 32, 43);
+            this.sairToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.opcoesToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.arquivoToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.rtxtb1.BackColor = System.Drawing.Color.FromArgb(21, 32, 43);
+            this.rtxtb1.ForeColor = System.Drawing.Color.White;
+        }
     }
 }
 
