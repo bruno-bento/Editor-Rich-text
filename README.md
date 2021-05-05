@@ -1,6 +1,3 @@
 # Editor-Rich-text
-Um simples editor Rich Text, aonde trabalhei manipulação de arquivo,edição de texto e imprimir um arquivo.
-Ainda pretendo adicionar mais coisas ao projeto.
-
-## Licença
-Não se aplica.
+A simple Rich Text editor, where I worked on file manipulation, text editing and printing a file.
+I still intend to add more things to the project.
